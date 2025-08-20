@@ -12,32 +12,6 @@ This is my github repo and if you want to run it on your local device follow the
 2. Search using `fileId`
 3. Try one-shot search 
 
-
-Structure and flow
-
-src/
-├── main/java/com/example/PdfReader/
-│ ├── PdfReaderApplication.java 
-│ ├── controller/
-│ │ └── PdfController.java 
-│ ├── pdfService/
-│ │ ├── PdfService.java 
-│ │ ├── PdfTextExtractor.java 
-│ │ └── SearchService.java 
-│ ├── model/
-│ │ ├── DocumentData.java 
-│ │ ├── Match.java 
-│ │ ├── SearchResponse.java 
-│ │ └── UploadResponse.java 
-│ ├── exception/
-│ │ ├── ApiException.java 
-│ │ └── GlobalExceptionHandler.java 
-│ └── pdfUtils/
-│ └── FileValidators.java 
-└── resources/
-└── application.properties 
-
-
 Work flow 
 
 1. Upload API: PDF → Extract text by pages → Store in memory with UUID
